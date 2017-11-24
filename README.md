@@ -1,11 +1,11 @@
-This package is a demo of an [astilectron](https://github.com/asticode/go-astilectron) app that uses the [bootstrap](https://github.com/asticode/go-astilectron-bootstrap) and the [bundler](https://github.com/asticode/go-astilectron-bundler).
+This package is an electron/golang app to control and monitor Epson projectors, build from the following [bootstrap](https://github.com/asticode/go-astilectron-bootstrap) and the [bundler](https://github.com/asticode/go-astilectron-bundler).
 
 # Step 1: install the demo
 
 Run the following commands:
 
-    $ go get -u github.com/asticode/go-astilectron-demo/...
-    $ rm $GOPATH/src/github.com/asticode/go-astilectron-demo/bind.go
+    $ go get -u github.com/gazzer82/epson-go-up/...
+    $ rm $GOPATH/src/github.com/gazzer82/epson-go-up/bind.go
 
 # Step 2: install the bundler
 
@@ -19,7 +19,7 @@ And don't forget to add `$GOPATH/bin` to your `$PATH`.
 
 Run the following commands:
 
-    $ cd $GOPATH/src/github.com/asticode/go-astilectron-demo
+    $ cd $GOPATH/src/github.com/gazzer82/epson-go-up
     $ astilectron-bundler -v
     
 # Step 4: test the app
