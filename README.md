@@ -1,6 +1,6 @@
 This package is an electron/golang app to control and monitor Epson projectors, build from the following [bootstrap](https://github.com/asticode/go-astilectron-bootstrap) and the [bundler](https://github.com/asticode/go-astilectron-bundler).
 
-# Step 1: install the demo
+# Step 1: install the epsson-go-up source
 
 Run the following commands:
 
